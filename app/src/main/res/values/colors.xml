@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for activity_aboutbout category -->
+    <color name="categoryAbout">#FFA726</color>
+
+    <!-- Background color for the play category -->
+    <color name="categoryPlay">#FFA726</color>
+
+    <!-- Background color for the TicTac category -->
+    <color name="CategoryTic">#FFA726</color>
+</resources>

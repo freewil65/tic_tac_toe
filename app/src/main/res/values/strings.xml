@@ -1,0 +1,14 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">tic_tac_toe</string>
+
+    <!-- Category name for play [CHAR LIMIT=20] -->
+    <string name="Category_Play">Play</string>
+
+    <!-- Category name activity_aboutbout [CHAR LIMIT=20] -->
+    <string name="Category_About">About</string>
+
+    <!-- Category name for Tic [CHAR LIMIT=20] -->
+    <string name="CategoryTic">TIC TAC TOE GAME</string>
+
+</resources>

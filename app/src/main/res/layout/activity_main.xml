@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tic_tac_toe.MainActivity"
+    android:background="@color/tan_background"
+    >
+
+
+    <Button
+        android:id="@+id/tictac"
+        android:text="@string/CategoryTic"
+        style="@style/CategoryTic"
+        android:background="@color/CategoryTic"
+
+        />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_below="@+id/tictac"
+        android:text="@string/Category_Play"
+        style="@style/CategoryPlay"
+        android:background="@color/categoryPlay"
+
+        />
+
+    <Button
+        android:id="@+id/about"
+        android:text="@string/Category_About"
+        style="@style/CategoryAbout"
+        android:background="@color/categoryAbout"
+
+        />
+
+</RelativeLayout>
