@@ -192,7 +192,7 @@
             />
 
         <Button
-            android:id="@+id/button_45"
+            android:id="@+id/button_44"
             style="@style/Category_Game_cells"
             />
 
