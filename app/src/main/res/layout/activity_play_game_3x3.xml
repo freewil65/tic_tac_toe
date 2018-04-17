@@ -4,42 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
-
+    android:background="#0c042b"
     tools:context="com.example.android.tic_tac_toe.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
+        android:background="#455A64"
         >
 
         <TextView
             android:id="@+id/player_1_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:freezesText="true"
-            android:text="Player 1: 0"
-            android:layout_marginLeft="5dp"
-            android:textSize="30sp"
-            android:textColor="#B9F6CA"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/CategoryScoreB_1"
+            style="@style/CategoryScore1_3x3"
             />
 
         <TextView
             android:id="@+id/player_2_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/player_1_text_view"
-            android:layout_toEndOf="@+id/player_1_text_view"
-            android:layout_marginLeft="95dp"
-            android:layout_marginStart="95dp"
-            android:freezesText="true"
-            android:text="Player 2: 0"
-            android:textSize="30sp"
-            android:textColor="#B9F6CA"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            style="@style/CategoryScore2_3x3"
+            android:text="@string/CategoryScoreB_2"
             />
-
-
 
     </RelativeLayout>
 
@@ -50,29 +39,17 @@
 
         <Button
             android:id="@+id/button_00"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
         <Button
             android:id="@+id/button_01"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
         <Button
             android:id="@+id/button_02"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
     </LinearLayout>
@@ -84,29 +61,17 @@
 
         <Button
             android:id="@+id/button_10"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
         <Button
             android:id="@+id/button_11"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
         <Button
             android:id="@+id/button_12"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
     </LinearLayout>
@@ -119,39 +84,22 @@
 
         <Button
             android:id="@+id/button_20"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
         <Button
             android:id="@+id/button_21"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
         <Button
             android:id="@+id/button_22"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:freezesText="true"
-            android:textSize="60sp"
+            style="@style/Category_Game_cells"
             />
 
     </LinearLayout>
     <Button
         android:id="@+id/button_reset"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="#455A64"
-        android:text="reset"
-        android:textSize="20sp"
+        style="@style/CategoryResetButton"
         />
 </LinearLayout>

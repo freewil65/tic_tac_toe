@@ -3,12 +3,22 @@
     <string name="app_name">tic_tac_toe</string>
 
     <!-- Category name for play [CHAR LIMIT=20] -->
-    <string name="Category_Play">Play</string>
+    <string name="Category_Play">Game Menu</string>
 
-    <!-- Category name activity_aboutbout [CHAR LIMIT=20] -->
+    <!-- Category name activity_about [CHAR LIMIT=20] -->
     <string name="Category_About">About</string>
 
     <!-- Category name for Tic [CHAR LIMIT=20] -->
     <string name="CategoryTic">TIC TAC TOE GAME</string>
+
+    <!-- Category name activity_3x3 [CHAR LIMIT=20] -->
+    <string name="Category_3x3">Play 3x3</string>
+
+    <!-- Category name activity_5x5 [CHAR LIMIT=20] -->
+    <string name="Category_5x5">Play 5x5</string>
+
+    <string name="CategoryScoreB_1">Player 1 : 0</string>
+
+    <string name="CategoryScoreB_2">Player 2 : 0</string>
 
 </resources>

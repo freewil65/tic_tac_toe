@@ -11,12 +11,12 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
 
-    <!-- Background color for activity_aboutbout category -->
-    <color name="categoryAbout">#FFA726</color>
+    <!-- Background color for activity_about category -->
+    <color name="categoryAbout">#4e3e27</color>
 
     <!-- Background color for the play category -->
-    <color name="categoryPlay">#FFA726</color>
+    <color name="categoryPlay">#4e3e27</color>
 
     <!-- Background color for the TicTac category -->
-    <color name="CategoryTic">#FFA726</color>
+    <color name="CategoryTic">#4e3e27</color>
 </resources>

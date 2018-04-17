@@ -16,31 +16,18 @@
 
     <Button
         android:id="@+id/play3x3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tictac"
-        android:text="Play 3x3"
-        android:textSize="30dp"
-        android:textColor="#ffff"
-        android:layout_margin="90dp"
-        android:layout_centerHorizontal="true"
-        android:padding="5dp"
+        android:text="@string/Category_3x3"
+        style="@style/Category3x3"
         android:background="@color/categoryPlay"
         />
 
     <Button
         android:id="@+id/play5x5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/play3x3"
-        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/play3x3"
-        android:layout_marginBottom="33dp"
         android:background="@color/categoryPlay"
-        android:padding="5dp"
-        android:text="Play 5x5"
-        android:textColor="#ffff"
-        android:textSize="30dp"
+        android:text="@string/Category_5x5"
+        style="@style/Category5x5"
         />
 
 </RelativeLayout>
