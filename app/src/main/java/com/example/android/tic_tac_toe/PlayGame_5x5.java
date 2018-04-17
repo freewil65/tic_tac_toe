@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class PlayGame_5x5 extends AppCompatActivity implements View.OnClickListener {
 
-    private Button[][] buttons = new Button[3][3];
+    private Button[][] buttons = new Button[5][5];
     private int roundCount;
     private TextView textViewPlayer1;
     private TextView textViewPlayer2;
